@@ -1,0 +1,13 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Jorgebyte/TpaSystem
+build-by-default: true
+branches:
+- main
+projects:
+  TpaSystem:
+    path: ""
+    icon: icon.png
+    libs:
+      - src: LatamPMDevs/Commando/Commando
+        version: ^3.1.1
+        branch: pm5
+...
