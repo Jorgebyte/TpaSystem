@@ -1,0 +1,12 @@
+tpa_expiration_time: 60
+cooldown_tpa_all: 5
+
+# Messages
+already_tpa_pending: "§e{PLAYER}§f already has a pending tpa, please wait for it to finish"
+expired_tpa: "§cThe tpa has expired"
+tpa_send_request: "§e{PLAYER}§a has received your tpa request"
+tpa_target_request: "§aHey, you've received a request from:§e {PLAYER}"
+tpa_accept_request: "§aYou have accepted the tpa successfully"
+tpa_deny_request: "§cYou have rejected the tpa request"
+no_pending_tpa: "§cIt seems that you do not have any pending tpa"
+message_broadcast_tpall: "§aEveryone will be teleported in§e {TIME}§a seconds"
