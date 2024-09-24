@@ -25,7 +25,7 @@ class DenyCommand extends BaseSubCommand
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
     {
         if ($this->plugin->getTpaManager()->denyTpaRequest($sender)) {
-            $sender->sendMessage($instance->getConfig()->get("tpa_deny_request"));
+            $sender->sendMessage($this->plugin->getConfig()->get("tpa_deny_request"));
             Sound::addSound($sender, SoundNames::BAD_TONE);
         } else {
             $sender->sendMessage($this->plugin->getConfig()->get("no_pending_tpa"));
